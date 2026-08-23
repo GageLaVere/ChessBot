@@ -21,7 +21,7 @@ class GameStorage():
     def __init__(self, db_path=None):
 
         if db_path is None:
-            db_path = Path(__file__).resolve().parents[2] / "data" / "chess_bot.db"
+            db_path = Path(__file__).resolve().parents[1] / "data" / "chess_bot.db"
 
         self.db_path = Path(db_path)
         self.db_path.parent.mkdir(parents=True, exist_ok=True)

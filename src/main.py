@@ -2,9 +2,9 @@ import subprocess
 import sys
 from pathlib import Path
 
-from interfaces.gui_telemetry import Telemetry
 from orchestration.game import LocalGame
 from storage.storage import GameStorage
+from interfaces.gui_telemetry import Telemetry
 
 
 SOURCE = "local_self_play"
