@@ -7,6 +7,7 @@ dependencies = [
     "langgraph>=1.0.0",
     "PySide6>=6.0.0",
     "python-chess>=1.999",
+    "torch>=2.0.0",
 ]
 
 [build-system]
